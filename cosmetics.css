@@ -4,28 +4,21 @@ width:1380px;
 }
 
 .imagetext{
-position:absolute;
 font-size:40px;
 font-weight:bold;
 color:black;
 right:45%;
-top:40%;
+top:10%;
 font-family:"consolas";
 
 }
 
 
-
 .navbar{
-position:absolute;
-right:40%;
-top:60%;
-text-align:center;
 }
 
 .navbar a{
 color:black;
-cursor:pointer;
 text-decoration:none;
 margin-right:30px;
 font-size:20px;
@@ -40,15 +33,8 @@ display:none;
 
 }
 
-#shop{
-	display:block;
-}
-
 .products{
 
-width:200px;
-height:200px;
-border:1px solid red;
 
 }
 
@@ -56,8 +42,8 @@ border:1px solid red;
 #image{
 
 
-	height:200px;
-	width:200px;
+height:200px;
+width:200px;
 text-align:center;
 }
 p{
