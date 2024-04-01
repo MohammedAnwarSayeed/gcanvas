@@ -4,7 +4,7 @@ width:1380px;
 }
 
 .imagetext{
-	position:absolute;
+position:absolute;
 font-size:40px;
 font-weight:bold;
 color:black;
@@ -26,6 +26,17 @@ font-size:20px;
 font-family:"courier new";
 font-weight:bold;
 
+
+}
+a{
+	font-size:25px;
+	color:violet;
+	font-family:"courier new";
+	font-weight:bold;
+	padding:black;
+	margin: 20px;
+	border:red;
+	text-decoration:none;
 
 }
 .content{
