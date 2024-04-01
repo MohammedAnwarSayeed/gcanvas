@@ -4,6 +4,7 @@ width:1380px;
 }
 
 .imagetext{
+	position:absolute;
 font-size:40px;
 font-weight:bold;
 color:black;
