@@ -9,7 +9,7 @@ function showcontent(id){
 	}
 }
 
-
+const isAdmin = true;
 
 document.addEventListener('DOMContentLoaded', () => {
     const addButton = document.getElementById('add-content-btn');
