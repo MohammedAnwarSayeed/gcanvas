@@ -9,21 +9,21 @@ function showcontent(id){
 	}
 }
 
-const isAdmin = true;
 
-document.addEventListener('DOMContentLoaded', () => {
-    const addButton = document.getElementById('add-content-btn');
-    
 
-    // Show the add button only for admins
-    if (isAdmin) {
-        addButton.classList.remove('hidden');
-    }
+const isAdmin = true; // Or false, depending on the user's role
 
-    addButton.addEventListener('click', () => {
-        const newContent = document.createElement('div');
-        newContent.textContent = 'New content added!';
-       
-    });
-});
+        document.addEventListener('DOMContentLoaded', () => {
+            const addButton = document.getElementById('add-content-btn');
 
+            // Show the add button only for admins
+            if (isAdmin) {
+                addButton.classList.remove('hidden');
+            }
+
+            addButton.addEventListener('click', () => {
+                const newContent = document.createElement('div');
+                newContent.textContent = 'New content added!';
+                document.body.appendChild(newContent);
+            });
+        });
